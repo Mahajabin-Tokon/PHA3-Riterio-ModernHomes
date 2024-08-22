@@ -36,7 +36,7 @@
               clifford: "#da373d",
             },
             backgroundImage: {
-              "connect": "url('./images/bg.jpg')",
+              connect: "url('./images/bg.jpg')",
             },
           },
         },
@@ -422,11 +422,43 @@
           </div>
 
           <!-- Input section -->
-           <input class="rounded-3xl pl-4 py-2" type="text" placeholder="First Name*">
-           <input class="rounded-3xl pl-4 py-2" type="text" placeholder="Last Name*">
-           <input class="rounded-3xl pl-4 py-2" type="text" placeholder="Phone Number*">
-           <input class="rounded-3xl pl-4 py-2" type="text" placeholder="Email*">
-           <textarea name="" id=""></textarea>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 mt-5">
+            <input
+              class="rounded-3xl pl-4 py-2"
+              type="text"
+              placeholder="First Name*"
+            />
+            <input
+              class="rounded-3xl pl-4 py-2"
+              type="text"
+              placeholder="Last Name*"
+            />
+            <input
+              class="rounded-3xl pl-4 py-2"
+              type="text"
+              placeholder="Phone Number*"
+            />
+            <input
+              class="rounded-3xl pl-4 py-2"
+              type="text"
+              placeholder="Email*"
+            />
+            <textarea
+              class="rounded-3xl pl-4 py-2 lg:col-span-2 h-60"
+              type="text"
+              placeholder="Write your message here"
+            ></textarea>
+            <button class="btn bg-green-400 rounded-3xl lg:col-span-2">
+              Consult Book
+              <div
+                class="flex justify-center items-center w-6 h-6 bg-black rounded-full -rotate-45"
+              >
+                <i class="text-white fa-solid fa-arrow-right"></i>
+              </div>
+            </button>
+          </div>
+
+          
         </div>
       </div>
     </body>
