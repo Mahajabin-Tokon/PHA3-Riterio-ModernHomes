@@ -19,22 +19,79 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <!-- fonawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/ad7acb9d45.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind custom styles -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              fontFamily: {
-                "primary": "Manrope"},
-              colors: {
-                clifford: "#da373d",
-              },
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              primary: "Manrope",
+            },
+            colors: {
+              clifford: "#da373d",
             },
           },
-        };
+        },
+      };
     </script>
   </head>
   <body class="font-primary">
-    <h1 class="text-9xl font-primary">Hello</h1>
+    <!-- Nav section -->
+    <header class="bg-slate-100">
+      <nav class="flex justify-between items-center container mx-auto p-5">
+        <!-- nav left -->
+        <div class="flex justify-center items-center space-x-2">
+          <div
+            class="flex justify-center items-center w-6 h-6 bg-green-400 rounded-full -rotate-45"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <h2 class="text-3xl font-semibold">Riterio</h2>
+        </div>
+        <!-- nav middle -->
+
+        <ul
+          class="hidden md:flex justify-center items-center space-x-5 text-slate-400"
+        >
+          <li><a href="#" class="text-slate-800 font-bold">Home</a></li>
+          <li><a href="#" class="">Services</a></li>
+          <li><a href="#" class="">Portfolio</a></li>
+          <li><a href="#" class="">Blogs</a></li>
+          <li><a href="#" class="">Contact Us</a></li>
+        </ul>
+
+        <!-- nav right -->
+        <div class="hidden md:flex justify-center items-center space-x-2">
+          <div
+            class="flex justify-center items-center w-8 h-8 bg-white rounded-full"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div
+            class="flex justify-center items-center w-8 h-8 bg-white rounded-full"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <button class="btn bg-green-400 rounded-3xl">
+            Consult Book
+            <div
+              class="flex justify-center items-center w-6 h-6 bg-black rounded-full -rotate-45"
+            >
+              <i class="text-white fa-solid fa-arrow-right"></i>
+            </div>
+          </button>
+        </div>
+        <div
+          class="flex justify-center items-center w-10 h-10 bg-white rounded-full md:hidden"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
