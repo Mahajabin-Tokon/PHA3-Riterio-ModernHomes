@@ -1,5 +1,8 @@
 # Riterio: Modern Homes
 
+## Live Link
+https://mahajabin-tokon.github.io/PHA3-Riterio-ModernHomes/
+
 ## Project Description
 
 **Riterio** is a fully responsive, aesthetically pleasing website that serves as a showcase for modern residential and commercial design projects. The website highlights innovative design processes, captivating portfolios, and exceptional customer reviews, providing users with an immersive experience. It is built using Tailwind CSS and DaisyUI for fast, scalable, and reusable components.
