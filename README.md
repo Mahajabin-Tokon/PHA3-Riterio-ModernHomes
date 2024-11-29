@@ -9,6 +9,18 @@ https://mahajabin-tokon.github.io/PHA3-Riterio-ModernHomes/
 
 ---
 
+## Technologies and Tools Used
+
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **DaisyUI**: Component library for consistent and responsive design.
+- **FontAwesome**: Iconography for enhanced navigation and interactivity.
+- **Google Fonts**:
+  - **Manrope**: Elegant typography for content and headings.
+- **HTML5**: Semantic structure and accessibility.
+- **Responsive Design**: Media queries for seamless user experience on all devices.
+
+---
+
 ## Key Features
 
 ### 1. Navigation and Header
@@ -66,18 +78,6 @@ https://mahajabin-tokon.github.io/PHA3-Riterio-ModernHomes/
   - "Book Consult" button for instant engagement.
 - **Minimalistic Design**:
   - Clean layout with a focus on accessibility.
-
----
-
-## Technologies and Tools Used
-
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **DaisyUI**: Component library for consistent and responsive design.
-- **FontAwesome**: Iconography for enhanced navigation and interactivity.
-- **Google Fonts**:
-  - **Manrope**: Elegant typography for content and headings.
-- **HTML5**: Semantic structure and accessibility.
-- **Responsive Design**: Media queries for seamless user experience on all devices.
 
 ---
 
